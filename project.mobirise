@@ -27,11 +27,13 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#000000"
+      ]
     },
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 27,
+    "uniqCompNum": 35,
     "versionPublish": "4.7.6",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -577,19 +579,16 @@
                   "width": "100%"
                 }
               }
-            },
-            ".media-container-row .mbr-text": {
-              "color": "#ffffff"
             }
           },
           "_name": "footer7",
-          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Пункты меню\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Соцсети\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/mbr-1916x1080.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">О нас</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://vk.com/madmandj\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\" style=\"color: rgb(255, 255, 255);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/namdamjd/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://soundcloud.com/user-890788315-327173203\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-soundcloud socicon\" style=\"color: rgb(255, 255, 255);\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2018 MadmanDJ - все права защищены\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qTi2p5hbQd",
+          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Пункты меню\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Соцсети\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#000000\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">О нас</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://vk.com/madmandj\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/namdamjd/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://soundcloud.com/user-890788315-327173203\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-soundcloud socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2018 MADMANDJ - все права защищены\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qTix4pRjAx",
           "_protectedParams": [],
           "_global": true,
           "_once": true,
           "_params": {},
-          "_anchor": "footer7-8"
+          "_anchor": "footer7-w"
         }
       ]
     },
@@ -603,6 +602,130 @@
         "order": 1
       },
       "components": [
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".form-container": {
+              "transition": "all .2s",
+              "border": "1px solid #ffffff",
+              "padding": "1rem",
+              "& when (@bgForm)": {
+                "background": "linear-gradient(@formColor1, @formColor2)",
+                "border": "none"
+              }
+            },
+            ".input-group-btn": {
+              "justify-content": "center"
+            },
+            "@media (min-width: 768px)": {
+              ".content-container": {
+                "padding-right": "5rem"
+              }
+            }
+          },
+          "_name": "header15",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Фон формы\" name=\"bgForm\">\n        <input type=\"color\" title=\"Форма Цвет 1\" name=\"formColor1\" value=\"#ff7f9f\" condition=\"bgForm\">\n        <input type=\"color\" title=\"Форма Цвет 2\" name=\"formColor2\" value=\"#55b4d4\" condition=\"bgForm\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/mbr-1784x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-right\">\n<div class=\"row\">\n    <div class=\"mbr-white col-lg-8 col-md-7 content-container\">\n        <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Прокат DJ оборудования</h1>\n        <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">DJ оборудование от компании PIONEER.<br>Индивидуальный подход.<br>Прокат от одного дня.<br></p>\n    </div>\n    <div class=\"col-lg-4 col-md-5\">\n    <div class=\"form-container\">\n        <div mbr-form class=\"media-container-column\">\n            <div data-form-alert hidden class=\"align-center\">Спасибо за сообщение!\nМы свяжемся с Вами в ближайшее время.</div>\n            <form class=\"mbr-form\" action=\"madmandj@yandex.ru\" method=\"post\" name=\"Mobirise Form\">\n                <div data-for=\"name\">\n                    <div class=\"form-group\">\n                        <input type=\"text\" class=\"form-control px-3\" name=\"name\" data-form-field=\"Name\" placeholder=\"Имя\" required>\n                    </div>\n                </div>\n                <div data-for=\"email\" hidden=\"hidden\">\n                    <div class=\"form-group\">\n                        <input type=\"email\" class=\"form-control px-3\" name=\"email\" data-form-field=\"Email\" placeholder=\"Email\" required hidden=\"hidden\">\n                    </div>\n                </div>\n                <div data-for=\"phone\">\n                    <div class=\"form-group\">\n                        <input type=\"tel\" class=\"form-control px-3\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Телефон\">\n                    </div>\n                </div>\n                <div class=\"form-group\" data-for=\"message\">\n                    <textarea type=\"text\" class=\"form-control px-3\" name=\"message\" rows=\"7\" placeholder=\"Текст сообщения\" data-form-field=\"Message\"></textarea>\n                </div>\n                <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href type=\"submit\" class=\"btn btn-form btn-white-outline\">ОТПРАВИТЬ</a></span>\n            </form>\n        </div>\n    </div>\n    </div>\n</div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "qTihBKK29m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header15-g"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "justify-content": "center"
+            },
+            ".media-container-row": {
+              "flex-direction": "column",
+              "justify-content": "center",
+              "align-items": "center",
+              ".foot-menu": {
+                "list-style": "none",
+                "display": "flex",
+                "justify-content": "center",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                },
+                "margin-bottom": "0"
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "flex-wrap": "wrap",
+                "justify-content": "flex-end",
+                "-webkit-justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.5rem",
+                  "color": "#ffffff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "justify-content": "center",
+                  "-webkit-justify-content": "center"
+                }
+              },
+              ".row-copirayt": {
+                "word-break": "break-word",
+                "width": "100%",
+                "p": {
+                  "width": "100%"
+                }
+              }
+            }
+          },
+          "_name": "footer7",
+          "_customHTML": "<section group=\"Footers\" global=\"\" once=\"\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Пункты меню\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Соцсети\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#000000\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list=\"\" mbr-list-grow=\"menuItems\">\n                    <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">О нас</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list=\"\" mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://vk.com/madmandj\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/namdamjd/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://soundcloud.com/user-890788315-327173203\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-soundcloud socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2018 MADMANDJ - все права защищены\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "footer7-x",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "qTixWJ4Tc4",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": true,
+          "_params": {}
+        },
         {
           "_styles": {
             ".navbar": {
@@ -1007,189 +1130,6 @@
           "_once": "menu",
           "_params": {},
           "_anchor": "menu1-9"
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".form-container": {
-              "transition": "all .2s",
-              "border": "1px solid #ffffff",
-              "padding": "1rem",
-              "& when (@bgForm)": {
-                "background": "linear-gradient(@formColor1, @formColor2)",
-                "border": "none"
-              }
-            },
-            ".input-group-btn": {
-              "justify-content": "center"
-            },
-            "@media (min-width: 768px)": {
-              ".content-container": {
-                "padding-right": "5rem"
-              }
-            }
-          },
-          "_name": "header15",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Фон формы\" name=\"bgForm\">\n        <input type=\"color\" title=\"Форма Цвет 1\" name=\"formColor1\" value=\"#ff7f9f\" condition=\"bgForm\">\n        <input type=\"color\" title=\"Форма Цвет 2\" name=\"formColor2\" value=\"#55b4d4\" condition=\"bgForm\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/mbr-1784x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-right\">\n<div class=\"row\">\n    <div class=\"mbr-white col-lg-8 col-md-7 content-container\">\n        <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Прокат DJ оборудования</h1>\n        <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">DJ оборудование от компании PIONEER.<br>Индивидуальный подход.<br>Прокат от одного дня.<br></p>\n    </div>\n    <div class=\"col-lg-4 col-md-5\">\n    <div class=\"form-container\">\n        <div mbr-form class=\"media-container-column\">\n            <div data-form-alert hidden class=\"align-center\">Спасибо за сообщение!\nМы ответим Вам в ближайшее время.</div>\n            <form class=\"mbr-form\" action=\"madmandj@yandex.ru\" method=\"post\" name=\"Mobirise Form\">\n                <div data-for=\"name\">\n                    <div class=\"form-group\">\n                        <input type=\"text\" class=\"form-control px-3\" name=\"name\" data-form-field=\"Name\" placeholder=\"Имя\" required>\n                    </div>\n                </div>\n                <div data-for=\"email\">\n                    <div class=\"form-group\">\n                        <input type=\"email\" class=\"form-control px-3\" name=\"email\" data-form-field=\"Email\" placeholder=\"Email\" required>\n                    </div>\n                </div>\n                <div data-for=\"phone\">\n                    <div class=\"form-group\">\n                        <input type=\"tel\" class=\"form-control px-3\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Телефон\">\n                    </div>\n                </div>\n                <div class=\"form-group\" data-for=\"message\">\n                    <textarea type=\"text\" class=\"form-control px-3\" name=\"message\" rows=\"7\" placeholder=\"Текст сообщения\" data-form-field=\"Message\"></textarea>\n                </div>\n                <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href type=\"submit\" class=\"btn btn-form btn-black-outline\">ОТПРАВИТЬ</a></span>\n            </form>\n        </div>\n    </div>\n    </div>\n</div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "qTihBKK29m",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "header15-g"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".row-links": {
-              "width": "100%",
-              "justify-content": "center"
-            },
-            ".social-row": {
-              "width": "100%",
-              "justify-content": "center"
-            },
-            ".media-container-row": {
-              "flex-direction": "column",
-              "justify-content": "center",
-              "align-items": "center",
-              ".foot-menu": {
-                "list-style": "none",
-                "display": "flex",
-                "justify-content": "center",
-                "flex-wrap": "wrap",
-                "padding": "0",
-                "li": {
-                  "padding": "0 1rem 1rem 1rem",
-                  "p": {
-                    "margin": "0"
-                  }
-                },
-                "margin-bottom": "0"
-              },
-              ".social-list": {
-                "padding-left": "0",
-                "margin-bottom": "0",
-                "list-style": "none",
-                "display": "flex",
-                "flex-wrap": "wrap",
-                "justify-content": "flex-end",
-                "-webkit-justify-content": "flex-end",
-                ".mbr-iconfont-social": {
-                  "font-size": "1.5rem",
-                  "color": "#ffffff"
-                },
-                ".soc-item": {
-                  "margin": "0 .5rem"
-                },
-                "a": {
-                  "margin": "0",
-                  "opacity": ".5",
-                  "-webkit-transition": ".2s linear",
-                  "transition": ".2s linear",
-                  "&:hover": {
-                    "opacity": "1"
-                  }
-                },
-                "@media (max-width: 767px)": {
-                  "justify-content": "center",
-                  "-webkit-justify-content": "center"
-                }
-              },
-              ".row-copirayt": {
-                "word-break": "break-word",
-                "width": "100%",
-                "p": {
-                  "width": "100%"
-                }
-              }
-            },
-            ".media-container-row .mbr-text": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "footer7",
-          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Пункты меню\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Соцсети\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/mbr-1916x1080.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">О нас</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"color: rgb(255, 255, 255);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\" style=\"color: rgb(255, 255, 255);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/namdamjd/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\" style=\"color: rgb(255, 255, 255);\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2018 MadmanDJ - все права защищены\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qTi9OfhznP",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": true,
-          "_params": {},
-          "_anchor": "footer7-c"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".testimonial-text": {
-              "font-style": "italic",
-              "font-weight": "300"
-            },
-            ".mbr-author-name": {
-              "font-weight": "bold"
-            },
-            ".media-container-row": {
-              "word-wrap": "break-word",
-              "word-break": "break-word"
-            }
-          },
-          "_name": "testimonials2",
-          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline=\"\" title=\"Размер медиа\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"130\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n          <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Цвет фона\" value=\"#000000\" selected=\"\">\n          <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n      <input type=\"range\" inline=\"\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"../_images/face4.jpg\">\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">\n                       Любимые дополнения к новой версии Mobirise Web Dev App, они улучшают и расширяют дизайн программы. Легко и приятно использовать.\n                    </p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">\n                       Давид Ф.\n                    </p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">\n                       РАЗРАБОТЧИК\n                    </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qTihtN8cLE",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "testimonials2-f"
-        },
-        {
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "socialFacebook": false,
-            "postsNumber": 5,
-            "socialGoogle": false,
-            "socialDisqus": true,
-            "shortName": "Madman DJ",
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
-            "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
-          },
-          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>",
-          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
-          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/disqus-comments.jpg\"></div>",
-          "alias": "facebook-comments",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "facebook-comments-block",
-          "_anchor": "facebook-comments-block-d"
         }
       ]
     },
@@ -1610,42 +1550,82 @@
         },
         {
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            ".testimonial-text": {
+              "font-style": "italic",
+              "font-weight": "300"
             },
-            ".form-container": {
-              "transition": "all .2s",
-              "border": "1px solid #ffffff",
-              "padding": "1rem",
-              "& when (@bgForm)": {
-                "background": "linear-gradient(@formColor1, @formColor2)",
-                "border": "none"
-              }
+            ".mbr-author-name": {
+              "font-weight": "bold"
             },
-            ".input-group-btn": {
-              "justify-content": "center"
-            },
-            "@media (min-width: 768px)": {
-              ".content-container": {
-                "padding-right": "5rem"
-              }
+            ".media-container-row": {
+              "word-wrap": "break-word",
+              "word-break": "break-word"
             }
           },
-          "_name": "header15",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Фон формы\" name=\"bgForm\">\n        <input type=\"color\" title=\"Форма Цвет 1\" name=\"formColor1\" value=\"#ff7f9f\" condition=\"bgForm\">\n        <input type=\"color\" title=\"Форма Цвет 2\" name=\"formColor2\" value=\"#55b4d4\" condition=\"bgForm\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/mbr-1784x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-right\">\n<div class=\"row\">\n    <div class=\"mbr-white col-lg-8 col-md-7 content-container\">\n        <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Прокат DJ оборудования</h1>\n        <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">DJ оборудование от компании PIONEER.<br>Индивидуальный подход.<br>Прокат от одного дня.<br></p>\n    </div>\n    <div class=\"col-lg-4 col-md-5\">\n    <div class=\"form-container\">\n        <div mbr-form class=\"media-container-column\">\n            <div data-form-alert hidden class=\"align-center\">Спасибо за сообщение!\nМы ответим Вам в ближайшее время.</div>\n            <form class=\"mbr-form\" action=\"madmandj@yandex.ru\" method=\"post\" name=\"Mobirise Form\">\n                <div data-for=\"name\">\n                    <div class=\"form-group\">\n                        <input type=\"text\" class=\"form-control px-3\" name=\"name\" data-form-field=\"Name\" placeholder=\"Имя\" required>\n                    </div>\n                </div>\n                <div data-for=\"email\">\n                    <div class=\"form-group\">\n                        <input type=\"email\" class=\"form-control px-3\" name=\"email\" data-form-field=\"Email\" placeholder=\"Email\" required>\n                    </div>\n                </div>\n                <div data-for=\"phone\">\n                    <div class=\"form-group\">\n                        <input type=\"tel\" class=\"form-control px-3\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Телефон\">\n                    </div>\n                </div>\n                <div class=\"form-group\" data-for=\"message\">\n                    <textarea type=\"text\" class=\"form-control px-3\" name=\"message\" rows=\"7\" placeholder=\"Текст сообщения\" data-form-field=\"Message\"></textarea>\n                </div>\n                <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href type=\"submit\" class=\"btn btn-form btn-black-outline\">ОТПРАВИТЬ</a></span>\n            </form>\n        </div>\n    </div>\n    </div>\n</div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "qTikz56ZBO",
+          "_name": "testimonials2",
+          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Размер медиа\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"130\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Цвет фона\" value=\"#000000\" selected>\n          <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/tmw37hvaku4-1162x775.jpg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">\n                       Мне эти три странички нафиг не нужны, но ради приличия, пожалуй, скажу спасибо :)</p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">DJ Madman</p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">Александр Тюгаев</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qTikz6UX1W",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "header15-i"
+          "_anchor": "testimonials2-k"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".title": {
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            },
+            "a:not([href]):not([tabindex])": {
+              "color": "#fff",
+              "border-radius": "3px"
+            },
+            "a.btn-white:not([href]):not([tabindex])": {
+              "color": "#333"
+            },
+            ".multi-horizontal": {
+              "flex-grow": "1",
+              "-webkit-flex-grow": "1",
+              "max-width": "100%"
+            },
+            ".input-group-btn": {
+              "display": "block",
+              "text-align": "center"
+            },
+            "LABEL": {
+              "color": "#ffffff"
+            },
+            "H2": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "form1",
+          "_customHTML": "<section class=\"mbr-section form1\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubtitle\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/mbr-1916x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#232323\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Заказать выступление</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\">Заказать выступление</h3>\n            </div>\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div mbr-form class=\"media-container-column col-lg-8\">\n                    <div data-form-alert hidden>Спасибо за сообщение!\nМы с Вами свяжемся в ближайшее время</div>\n            \n                    <form class=\"mbr-form\" action=\"madmandj@yandex.ru\" method=\"post\" name=\"Mobirise Form\">\n                        <div class=\"row row-sm-offset\">\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"name\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"name\">Имя</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"name\" data-form-field=\"Name\" required>\n                                </div>\n                            </div>\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"email\" hidden=\"hidden\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"email\" hidden=\"hidden\">Email</label>\n                                    <input type=\"email\" class=\"form-control\" name=\"email\" data-form-field=\"Email\" required hidden=\"hidden\">\n                                </div>\n                            </div>\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"phone\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"phone\">Телефон</label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\">\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"form-group\" data-for=\"message\">\n                            <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"message\">Сообщение</label>\n                            <textarea type=\"text\" class=\"form-control\" name=\"message\" rows=\"7\" data-form-field=\"Message\"></textarea>\n                        </div>\n            \n                        <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href type=\"submit\" class=\"btn btn-form btn-white-outline\">ОТПРАВИТЬ</a></span>\n                    </form>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qTitkqLHFh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "form1-s"
         },
         {
           "_styles": {
@@ -1719,77 +1699,18 @@
                   "width": "100%"
                 }
               }
-            },
-            ".media-container-row .mbr-text": {
-              "color": "#ffffff"
             }
           },
           "_name": "footer7",
-          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Пункты меню\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Соцсети\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/mbr-1916x1080.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">О нас</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"color: rgb(255, 255, 255);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\" style=\"color: rgb(255, 255, 255);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/namdamjd/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\" style=\"color: rgb(255, 255, 255);\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2018 MadmanDJ - все права защищены\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qTikz60kzc",
+          "_customHTML": "<section group=\"Footers\" global=\"\" once=\"\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Пункты меню\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Соцсети\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Эффект появления\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Цвет фона\" value=\"#000000\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list=\"\" mbr-list-grow=\"menuItems\">\n                    <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">О нас</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list=\"\" mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://vk.com/madmandj\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-vkontakte socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/namdamjd/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://soundcloud.com/user-890788315-327173203\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-soundcloud socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2018 MADMANDJ - все права защищены\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "footer7-y",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "qTiykZPijG",
           "_protectedParams": [],
           "_global": true,
           "_once": true,
-          "_params": {},
-          "_anchor": "footer7-j"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".testimonial-text": {
-              "font-style": "italic",
-              "font-weight": "300"
-            },
-            ".mbr-author-name": {
-              "font-weight": "bold"
-            },
-            ".media-container-row": {
-              "word-wrap": "break-word",
-              "word-break": "break-word"
-            }
-          },
-          "_name": "testimonials2",
-          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline=\"\" title=\"Размер медиа\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"130\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n          <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Цвет фона\" value=\"#000000\" selected=\"\">\n          <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n      <input type=\"range\" inline=\"\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"../_images/face4.jpg\">\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">\n                       Любимые дополнения к новой версии Mobirise Web Dev App, они улучшают и расширяют дизайн программы. Легко и приятно использовать.\n                    </p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">\n                       Давид Ф.\n                    </p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">\n                       РАЗРАБОТЧИК\n                    </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qTikz6UX1W",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "testimonials2-k"
-        },
-        {
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "socialFacebook": false,
-            "postsNumber": 5,
-            "socialGoogle": false,
-            "socialDisqus": true,
-            "shortName": "Madman DJ",
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
-            "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
-          },
-          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>",
-          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
-          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/disqus-comments.jpg\"></div>",
-          "alias": "facebook-comments",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "facebook-comments-block",
-          "_anchor": "facebook-comments-block-l"
+          "_params": {}
         }
       ]
     }
